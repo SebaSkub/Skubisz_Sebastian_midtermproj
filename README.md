@@ -55,11 +55,11 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-
+```bash
 pandas
 tabulate
 mlxtend
-'''bash 
+
 ## 4) How to Run (CLI)
 
 Run the main script interactively:
@@ -73,7 +73,7 @@ Choose a dataset (amazon, microcenter, traderjoes, target, or stewleonards)
 Enter Minimum Support (0–1 or 1–100)
 
 Enter Minimum Confidence (0–1 or 1–100)
-'''markdown
+```markdown
 Choose a dataset:
   1. Amazon
   2. Microcenter
@@ -83,7 +83,7 @@ Choose a dataset:
 Enter number (1–5): 3
 Minimum support (1–100 or 0..1) [20]: 40
 Minimum confidence (1–100 or 0..1) [50]: 60
-'''markdown
+```markdown
 The script will:
 
 Run Brute-Force, Apriori, and FP-Growth
