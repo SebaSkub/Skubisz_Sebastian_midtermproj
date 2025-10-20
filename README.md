@@ -2,6 +2,7 @@ Association Rule Mining – Midterm Project
 Author: Sebastian Skubisz
 
 Folder Layout
+'''bash
 skubisz_sebastian_midtermproject/
 │
 ├─ datasets/ # input CSV files
@@ -27,7 +28,7 @@ skubisz_sebastian_midtermproject/
 ├─ algApp.py # main script
 ├─ README.md # this file
 └─ requirements.txt # dependencies
-
+'''bash
 Why this layout?
 All datasets live under datasets/. Running algApp.py generates algorithm-specific results inside outputs/<dataset>/…, keeping everything organized.
 
